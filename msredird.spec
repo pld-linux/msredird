@@ -7,6 +7,7 @@ Release:	0.1
 License:	GPL
 Group:		Networking
 Source0:	ftp://metalab.unc.edu/pub/Linux/system/serial/%{name}-%{version}.tgz
+# Source0-md5:	601cd4cddd8839aecfaf0d362066577e
 URL:		http://www.asymmetrica.com/software/msredird/ 
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
