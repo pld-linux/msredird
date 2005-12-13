@@ -49,6 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc doc/{README,INSTALL,errorcodes.txt,sample.output}
 %attr(755,root,root) %{_sbindir}/*
 %dir %{_sysconfdir}
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/msredird.conf
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/msredird.conf
 %{_sysconfdir}/log
 /var/log/msredird
