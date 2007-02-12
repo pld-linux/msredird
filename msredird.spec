@@ -1,6 +1,6 @@
 # TODO: init script and sysconfig file with necessary environment variables
 Summary:	RFC 2217-compliant multi-threaded serial port redirector
-Summary(pl):	Wielow±tkowy program przekierowuj±cy port szeregowy zgodny z RFC 2217
+Summary(pl.UTF-8):   WielowÄ…tkowy program przekierowujÄ…cy port szeregowy zgodny z RFC 2217
 Name:		msredird
 Version:	0.2
 Release:	0.1
@@ -19,10 +19,10 @@ program. The concept is very novel and already standardized by RFC
 2217. msredird is an implementation of that standard, also known as
 Telnet Com Port Control Option, in server mode.
 
-%description -l pl
-msredir jest programem przekierowuj±cym porty szeregowe lub, innymi
-s³owy, programem pozwalaj±cym na wspó³dzielenie modemów. Jest
-implementacj± standardu RFC 2217 (Telnet Com Port Control Option
+%description -l pl.UTF-8
+msredir jest programem przekierowujÄ…cym porty szeregowe lub, innymi
+sÅ‚owy, programem pozwalajÄ…cym na wspÃ³Å‚dzielenie modemÃ³w. Jest
+implementacjÄ… standardu RFC 2217 (Telnet Com Port Control Option
 protocol) w trybie serwera.
 
 %prep
