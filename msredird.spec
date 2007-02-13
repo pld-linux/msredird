@@ -1,6 +1,6 @@
 # TODO: init script and sysconfig file with necessary environment variables
 Summary:	RFC 2217-compliant multi-threaded serial port redirector
-Summary(pl.UTF-8):   Wielowątkowy program przekierowujący port szeregowy zgodny z RFC 2217
+Summary(pl.UTF-8):	Wielowątkowy program przekierowujący port szeregowy zgodny z RFC 2217
 Name:		msredird
 Version:	0.2
 Release:	0.1
